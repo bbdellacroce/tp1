@@ -1,0 +1,226 @@
+/* ESTILO  ROLLER LOVER */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	font-family: verdana;
+}
+
+
+.conten {
+	background-color: white;
+	max-width: 1024px;
+	margin: auto;
+	border-right: 5px solid Yellow;
+	border-left: 5px solid YellowGreen;
+
+}
+
+
+/* ---------HEAD/logo ----------------------*/
+.head{
+	width: 450px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+}
+.head img{
+	width: 70%;
+}
+
+
+
+/* ---------------BOTONERA----------------------  */
+.botonera{
+	max-width: 600px;
+	text-align: center;
+	margin: auto;
+
+}
+.nav{
+	list-style-type: none;
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.nav li{
+	border-bottom: 1px solid white;
+	padding: 10px;
+	text-align: center;
+	
+	flex-grow: 1;
+	flex-basis: 100px;
+
+
+}
+.nav a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	
+
+}
+.nav a:hover{
+	background-color: Gainsboro;
+	display: block;
+	color: MediumVioletRed;
+	text-decoration: underline;
+	border-radius: 10px;
+}
+
+
+/*  -------------------SLIDER ----------------------- */
+.slider{
+	position:relative;
+}
+.slider .info_slider{
+	background-color: yellow;
+	border-radius: 100%;
+	position: absolute;
+	width: 240px;
+	height: 240px;
+	text-align:center;
+	left: 80%;
+	top: -80px;
+	opacity: 0.8;
+	
+}
+.slider .info_slider p {
+	margin-top: 35%;
+	
+}
+.slider .info_slider h2 {
+	margin-top: 5%;
+	font-size: 20px;
+	
+}
+.slider img{
+width: 100%;
+}
+
+
+
+/* --------------VIDEO -------------------------------------- */
+.video-home {
+	border-top: 5px solid cyan;
+	width: 100%;
+	background-color: black;
+}
+
+.casos{
+	width: 1024px;
+	height: 400px;
+}
+.casos img {
+	float: left;
+	margin: 30px;
+}
+.casos p{
+
+	font-size: 20px;
+	float: right;
+	text-align: right;
+	width: 400px;
+	padding-right: 20px;
+	margin-right: 30px;
+	color: DarkOrange;
+	margin-top: 100px;
+	font-weight: bold;
+	border-right: 3px solid DarkOrange;
+}
+.casos h4{
+	text-align: center;
+	font-size: 58px;
+	color: cyan;
+	clear: both;
+}
+
+/* --------------TEAM------------------------  */
+
+.team{
+	width: 100%;
+	height: 450px;
+	border-top: 5px solid BlueViolet;
+	clear: both;
+	background-color: black;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.padre{
+	width: 250px;
+	height: 200px;	
+	background-color: grey;
+	display: block;
+	position:relative;
+	overflow: hidden;
+	float:left;
+	}
+	
+.hijo{
+	width: 250px;
+	height:150px;
+	background-color: white; 
+	position: absolute;
+	bottom: -120px;
+	opacity:0.8;
+	float:left;
+
+}
+.padre:hover .hijo{
+	bottom: 0;
+	transition: 0.5s;
+
+}
+
+/*  --------REDES ----------------------*/
+
+
+.redes{
+	margin: auto;
+	clear: both;	
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* ----------------------------PIE------------------------------ */
+.pie{
+	background-color: green;
+	width: 100%;
+	height: 200px;
+	clear: both;
+
+}
+.contacto{
+	width: 45%;
+	float: left;
+	background-color: pink;
+	height: 150px;
+	padding: 20px;
+}
+.botonera2{
+	width: 45%;
+	float: right;
+	background-color: yellow;	
+	padding: 20px;
+
+}
+
+.botonera2 a{
+	text-decoration: none;
+	color: white;
+}
+
+.botonera2 li{
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
